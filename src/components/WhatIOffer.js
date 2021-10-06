@@ -6,12 +6,7 @@ const WhatIOffer = () => {
         <Wrapper>
             <h4>WHAT I OFFER</h4>
             <hr />
-            {/* <div className="carousel">
-                <h3>Product Design Course</h3>
-                <div className="content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?
-                </div>
-            </div> */}
+           
             <Carousel 
                 title="Product Design Course"
                 content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?"
