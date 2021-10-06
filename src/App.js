@@ -18,4 +18,5 @@ const Wrapper = styled.div`
   background: black url(${PageBg}) repeat;
   min-height: 200vh;
   position: relative;
+  /* max-width: 1440px; */
 `
