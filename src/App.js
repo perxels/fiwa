@@ -16,6 +16,5 @@ export default App;
 
 const Wrapper = styled.div`
   background: black url(${PageBg}) repeat;
-  min-height: 200vh;
   position: relative;
 `
