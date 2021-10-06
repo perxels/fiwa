@@ -9,18 +9,27 @@ const WhatIOffer = () => {
            
             <Carousel 
                 title="Product Design Course"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             />
             <hr />
              <Carousel 
-                title="Product Design Course"
+                title="Moms Too Can Design Initiative"
+                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?"
+            />
+            <hr />
+            <Carousel 
+                title="Contract Jobs"
+                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?"
+            />
+            <hr />
+            <Carousel 
+                title="Speaking Engagement"
                 content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?"
             />
             <hr />
         </Wrapper>
     )
 }
-
 export default WhatIOffer
 
 const Wrapper = styled.section`
@@ -58,19 +67,24 @@ const Carousel = ({title, content}) => {
 
 const CarouselWrapper = styled.div`
     position: relative;
-    height: 80px;
+    max-height: 80px;
     overflow: hidden;
-    transition: all 1s ease-out;
+    transition: all 0s ease-out;
     margin: 0;
+    padding: 30px 0;
 
     &.active {
-        height: 150px;
+        max-height: 250px;
+        transition: all 1s ease-out;
         h3::before {
             content: '-';
             font-size: 60px;
             position: absolute;
             left: 0;
             top: -15px;
+        }
+        h3 {
+            margin: 0 0 35px 0;
         }
     }
 
@@ -80,8 +94,8 @@ const CarouselWrapper = styled.div`
         position: relative;
         color: #E8D89A;
         font-weight: 700;
-        font-size: 60px;
-        margin: 0;
+        font-size: 50px;
+        margin: 0 0 100% 0;
     }
     h3::before {
         color: #FFCD00;
@@ -95,6 +109,10 @@ const CarouselWrapper = styled.div`
         max-width: 70%;
         margin-left: auto;
         padding: 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #C4C4C4;
+        line-height: 24px;
     }
     
 
