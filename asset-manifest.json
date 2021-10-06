@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fiwa-porfolio/static/css/main.702f98dd.chunk.css",
-    "main.js": "/fiwa-porfolio/static/js/main.0bf2e09d.chunk.js",
-    "main.js.map": "/fiwa-porfolio/static/js/main.0bf2e09d.chunk.js.map",
+    "main.js": "/fiwa-porfolio/static/js/main.ede45f00.chunk.js",
+    "main.js.map": "/fiwa-porfolio/static/js/main.ede45f00.chunk.js.map",
     "runtime-main.js": "/fiwa-porfolio/static/js/runtime-main.a044d7a6.js",
     "runtime-main.js.map": "/fiwa-porfolio/static/js/runtime-main.a044d7a6.js.map",
     "static/js/2.12c4983a.chunk.js": "/fiwa-porfolio/static/js/2.12c4983a.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.a044d7a6.js",
     "static/js/2.12c4983a.chunk.js",
     "static/css/main.702f98dd.chunk.css",
-    "static/js/main.0bf2e09d.chunk.js"
+    "static/js/main.ede45f00.chunk.js"
   ]
 }
