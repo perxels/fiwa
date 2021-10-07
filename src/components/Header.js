@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const Header = () => {
     return(
         <Wrapper>
-            <Logo />
+            <Logo className="logo"/>
             <Hamburger />
         </Wrapper>
     )
@@ -19,4 +19,11 @@ const Wrapper = styled.header`
    display: flex;
    align-items: center;
    justify-content: space-between;
+   @media(max-width: 768px) {
+       padding: 1rem;
+       justify-content: flex-end;
+       svg.logo {
+           display: none;
+       }
+   }
 `

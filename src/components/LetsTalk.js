@@ -39,4 +39,25 @@ const Wrapper = styled.section`
         text-decoration: none;
         color: #111111;
     }
+    @media(max-width: 768px) {
+        border: 1px solid #FFCD00;
+        margin: 4rem 1.5rem;
+        padding: 3rem 2rem 1rem 2rem;
+        height: 350px;
+        grid-template-columns: 1fr;
+
+        h2 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+            text-align: center;
+        }
+
+        a {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 1.5rem;
+        }
+    }
 `

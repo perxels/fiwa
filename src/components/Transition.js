@@ -9,7 +9,7 @@ const Transition = () => {
             
             <div className="left">
                 <h3>
-                    Transition in Product Design in 3 months
+                    Transition in Product <br/> Design in 3 months
                 </h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -43,6 +43,10 @@ const Wrapper = styled.section`
             color: #FFCD00;
             font-size: 28px;
             font-family: 'Eudoxus';
+            font-weight: 700;
+            br{ 
+                display: none;
+            }
             
         }
         p {
@@ -61,6 +65,47 @@ const Wrapper = styled.section`
         img {
             max-width: 554px;
             max-height: 554px;
+        }
+    }
+    @media(max-width: 768px) {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        .left {
+            max-width: 100%;
+            /* margin-left: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; */
+            h3 {
+                color: #FFCD00;
+                font-size: 22px;
+                font-family: 'Eudoxus';
+                text-align: center;
+                margin-bottom: 3rem;
+                br { 
+                    display: initial;
+                }
+                
+            }
+            p {
+                color: #FFFFFF;
+                font-size: 12px;
+                text-align: justify;
+                font-weight: 400;
+                text-align: center;
+            }
+            h4 {
+                color: #E8D99A;
+                font-size: 25px;
+                text-align: center;
+                margin-top: 1.5rem;
+            }
+        }
+
+        .right {
+            display: none;
         }
     }
 `
