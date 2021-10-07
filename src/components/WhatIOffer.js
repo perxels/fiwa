@@ -67,7 +67,7 @@ const Carousel = ({title, content}) => {
 
 const CarouselWrapper = styled.div`
     position: relative;
-    max-height: 80px;
+    max-height: 100px;
     overflow: hidden;
     transition: all 0s ease-out;
     margin: 0;
