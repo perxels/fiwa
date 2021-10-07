@@ -14,9 +14,11 @@ const Intro = () => {
                     to grow and thrive in the industry
                 </small>
             </div>
-            <div className="img-holder">
-                <img src={Fiwa} alt="Fiwa" />
-                <div className="lets-talk">Let's talk.</div>
+            <div>
+                <div className="img-holder">
+                    <img src={Fiwa} alt="Fiwa" />
+                    <div className="lets-talk">Let's talk.</div>
+                </div>
             </div>
         </Wrapper>
     )
@@ -27,12 +29,15 @@ export default Intro
 const Wrapper = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-right: 12rem;
+  min-height: 700px;
 
   .about {
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin-top: -3rem;
 
       p {
           color: #FFCD00;
@@ -55,11 +60,12 @@ const Wrapper = styled.section`
   }
 
   .img-holder {
-      position: relative;
+      position: absolute;
       width: fit-content;
       overflow: hidden;
       border: solid 2px #FFCD00;
       border-top: none;
+      top: 0;
 
       img {
           max-width: 554px;

@@ -28,7 +28,7 @@ const Clients = () => {
 export default Clients
 
 const Wrapper = styled.section`
-    margin: 12rem auto 6rem auto;
+    margin: 3rem auto 6rem auto;
     
     p {
         color: #C4C4C4;
