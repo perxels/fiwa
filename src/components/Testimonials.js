@@ -1,15 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components';
 import Carousel from 'react-bootstrap/Carousel'
 
-import Students from '../assets/img/combined.png'
-
 const Testimonials = () => {
-    // const [index, setIndex] = useState(0);
-
-    // const handleSelect = (selectedIndex, e) => {
-    //     setIndex(selectedIndex);
-    // };
     return (
         <Section>
             <div className="what">
@@ -72,13 +65,13 @@ export default Testimonials
 const Section = styled.section`
     width: 100vw;
     margin: auto -6rem;
-    /* background: red; */
     .what{
         margin-top: 8rem;
         margin-bottom: 3rem;
         color: #FFCD00;
         text-align: center;
         font-size: 40px;
+        font-weight: 700;
     }
     .carousel__item {
         display: grid;
@@ -114,6 +107,62 @@ const Section = styled.section`
         .testimony {
             font-weight: 400;
             font-size: 24px;
+        }
+    }
+    .carousel-indicators .active{
+        background-color: #000000;
+    }
+
+    @media(max-width: 768px) {
+        width: 100%;
+        margin: 0;
+        .what{
+            margin-top: 6rem;
+            margin-bottom: 3rem;
+            color: #FFCD00;
+            text-align: center;
+            font-size: 1.7rem;
+        }
+        .carousel__item {
+            grid-template-columns: 1fr;
+            width: 100%;
+            height: fit-content;
+            padding: 2rem; 
+
+            .testifier {
+                margin-left: 6rem;
+                position: relative;
+                h3 {
+                    font-weight: 700;
+                    font-size: 40px;
+                    margin-bottom: 0;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+                &::before {
+                    font-size: 140px;
+                    font-weight: 700;
+                    left: -6rem;
+                    top: -3.5rem;
+                }
+            }
+            .testimony {
+                margin: 3rem auto;
+                font-weight: 400;
+                font-size: 1.2rem;
+            }
+        }
+        .carousel {
+            background: #E8D99A;
+            padding-bottom: 4rem;
+            .carousel-indicators{
+                margin-bottom: 4rem;
+                justify-content: flex-start;
+                margin-left: 2rem;
+                
+            }
         }
     }
 `

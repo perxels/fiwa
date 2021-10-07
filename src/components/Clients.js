@@ -44,4 +44,18 @@ const Wrapper = styled.section`
         align-items: center;
         justify-content: space-evenly;
     }
+    @media(max-width: 768px) {
+        margin: 3rem auto 2rem auto;
+        p {
+            font-size: 16px;
+            span {
+                font-size: 20px;
+            }
+        }
+        .logos {
+            img {
+                margin: auto 1rem;
+            }
+        }
+    }
 `

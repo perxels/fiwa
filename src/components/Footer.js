@@ -9,9 +9,9 @@ import {ReactComponent as Youtube} from '../assets/img/Youtube.svg'
 
 const Footer = () => {
     return(
-        <>
+        <Wrapper>
             <hr style={{border: '2px solid #FFCD00', bottom: '200px', margin: 'auto -6rem'}} />
-            <Wrapper>
+            <ContentWrapper>
                 <Logo />
                 <span>© 2021 Abiodun Fiwa. All rights reserved</span>
                 <div className="socials">
@@ -20,14 +20,19 @@ const Footer = () => {
                     <Twitter />
                     <Youtube />
                 </div>
-            </Wrapper>
-        </>
+            </ContentWrapper>
+        </Wrapper>
     )
 }
 
 export default Footer
-
 const Wrapper = styled.footer`
+    @media(max-width: 768px) {
+        hr {display: none;}
+    }
+`
+
+const ContentWrapper = styled.div`
     margin: 25px 6rem 0 6rem;
     display: flex;
     align-items: center;
@@ -40,5 +45,10 @@ const Wrapper = styled.footer`
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    @media(max-width: 768px){
+        flex-direction: column;
+        margin: 25px 1rem 0 1rem;
+        height: 150px;
     }
 `
