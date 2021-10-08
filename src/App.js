@@ -2,7 +2,8 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,7 +17,7 @@ import PageBg from './assets/img/bg.png'
 function App() {
   return (
     <Wrapper>
-      <Router basename={'/'}>
+      <HashRouter basename={'/'}>
         <Switch>
           <Route exact path="/">
               <Home />
@@ -28,7 +29,7 @@ function App() {
               <Contact />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     </Wrapper>
   );
 }
