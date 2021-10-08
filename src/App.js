@@ -17,7 +17,7 @@ import PageBg from './assets/img/bg.png'
 function App() {
   return (
     <Wrapper>
-      <HashRouter basename={'/'}>
+      <Router basename="/index.html">
         <Switch>
           <Route exact path="/">
               <Home />
@@ -29,7 +29,7 @@ function App() {
               <Contact />
           </Route>
         </Switch>
-      </HashRouter>
+      </Router>
     </Wrapper>
   );
 }
