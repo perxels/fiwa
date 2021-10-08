@@ -132,7 +132,7 @@ const CarouselWrapper = styled.div`
 
         &.active {
             max-height: 400px;
-            transition: all 1s ease-out;
+            transition: all 2s ease-out;
             h3::before {
                 content: '-';
                 font-size: 30px;
