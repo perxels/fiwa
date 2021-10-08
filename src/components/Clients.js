@@ -19,14 +19,14 @@ const Clients = () => {
                     
                 </marquee>
             </marquee> */}
-            {/* <div className="marquee"> */}
+            <div className="marquee">
                 <div className="logos">
                     <img src={cchub} alt="cchub logo" />
                     <img src={perxels} alt="perxels logo" />
                     <img src={enoverlab} alt="enoverlab logo" />
                     <img src={google} alt="google logo" />
                 </div>
-            {/* </div> */}
+            </div>
         </Wrapper>
     )
 }
@@ -45,25 +45,23 @@ const Wrapper = styled.section`
             font-size: 22px;
         }
     }
-
-    .logos {
-        /* width: 150%; */
-        margin-left: -20%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+    .marquee {
         animation: animate 20s linear infinite;
         animation-delay: 0s;
         padding-left: 100%;
+        display: inline-block;
+        padding-left: 100%;
+    }
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
 
         img {
             margin-left: 2rem;
         }
     }
     @keyframes animate{
-        0%{
-            transform: translate(100%,0);
-        }
         50%{
             transform: translate(-100%,0);
         }
@@ -80,7 +78,6 @@ const Wrapper = styled.section`
             }
         }
         .logos {
-            animation: animate 10s linear infinite;
             img {
                 margin: auto 1rem;
             }
