@@ -58,6 +58,7 @@ const Wrapper = styled.section`
         h4 {
             color: #E8D99A;
             font-size: 35px;
+            white-space: nowrap;
         }
     }
 

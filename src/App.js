@@ -33,7 +33,7 @@ function App() {
 export default App;
 
 const Wrapper = styled.div`
-  background: url(${PageBg}) repeat;
+  background: #111111 url(${PageBg}) repeat;
   position: relative;
   min-width: 350px;
 `
