@@ -16,7 +16,7 @@ import PageBg from './assets/img/bg.png'
 function App() {
   return (
     <Wrapper>
-      <Router>
+      <Router basename={'/'}>
         <Switch>
           <Route exact path="/">
               <Home />
