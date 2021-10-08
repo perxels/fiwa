@@ -7,7 +7,7 @@ const Intro = () => {
     return (
         <Wrapper>
             <div className="about">
-                <p>Hello, I'm fiwa.</p>
+                <p>HHello, I'm fiwa.</p>
                 <h1>Senior<br />Product<br /> Designer.</h1>
                 <small>
                     I train and mentor aspiring Product Designers <br />
