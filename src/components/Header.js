@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const Header = () => {
     return(
         <Wrapper>
-            <Logo className="logo"/>
+            <a href="/"><Logo className="logo"/></a>
             <Hamburger />
         </Wrapper>
     )

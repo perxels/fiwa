@@ -121,7 +121,7 @@ const Section = styled.section`
             margin-bottom: 3rem;
             color: #FFCD00;
             text-align: center;
-            font-size: 1.7rem;
+            font-size: 1.3rem;
         }
         .carousel__item {
             grid-template-columns: 1fr;
@@ -130,11 +130,11 @@ const Section = styled.section`
             padding: 2rem; 
 
             .testifier {
-                margin-left: 6rem;
+                margin-left: 30%;
                 position: relative;
                 h3 {
                     font-weight: 700;
-                    font-size: 40px;
+                    font-size: 250%;
                     margin-bottom: 0;
                 }
                 p {

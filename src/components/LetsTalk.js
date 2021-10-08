@@ -7,7 +7,7 @@ const LetsTalk = () => {
             <h2>
                 You got a cool <br />project in mind?
             </h2>
-            <a href="#">Let's talk.</a>
+            <a href="/contact">Let's talk.</a>
             
         </Wrapper>
     )

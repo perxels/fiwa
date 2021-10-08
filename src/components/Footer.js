@@ -49,6 +49,10 @@ const ContentWrapper = styled.div`
     @media(max-width: 768px){
         flex-direction: column;
         margin: 25px 1rem 0 1rem;
-        height: 150px;
+        height: 130px;
+        span {
+            font-size: 70%;
+            text-align: center;
+        }
     }
 `

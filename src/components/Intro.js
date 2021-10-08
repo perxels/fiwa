@@ -17,7 +17,7 @@ const Intro = () => {
             <div>
                 <div className="img-holder">
                     <img src={Fiwa} alt="Fiwa" />
-                    <div className="lets-talk">Let's talk.</div>
+                    <a href="/contact" className="lets-talk">Let's talk.</a>
                 </div>
             </div>
         </Wrapper>
@@ -74,7 +74,7 @@ const Wrapper = styled.section`
       }
 
       .lets-talk {
-        margin-top: -5px;
+        text-decoration: none;
         height: 92px;
         width: 100%;
         background: #FFCD00;
@@ -90,8 +90,6 @@ const Wrapper = styled.section`
   @media(max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 1rem;
-    /* padding-right: 12rem; */
-    /* min-height: 700px; */
     .about {
       height: 100%;
       display: flex;
@@ -109,12 +107,6 @@ const Wrapper = styled.section`
           font-weight: 700;
           margin: 44px 0 23px 0;
       }
-      /* small {
-          color:  #C4C4C4;
-          font-size: 14px;
-          line-height: 24px;
-          font-weight: 400;
-      } */
   }
 
   .img-holder {
