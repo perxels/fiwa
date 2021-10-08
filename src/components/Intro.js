@@ -17,7 +17,7 @@ const Intro = () => {
             <div>
                 <div className="img-holder">
                     <img src={Fiwa} alt="Fiwa" />
-                    <a href="/contact" className="lets-talk">Let's talk.</a>
+                    <a href="/fiwa/contact" className="lets-talk">Let's talk.</a>
                 </div>
             </div>
         </Wrapper>

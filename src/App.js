@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/fiwa">
               <Home />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/fiwa/contact">
               <Contact />
           </Route>
         </Switch>
