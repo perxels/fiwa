@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const LetsTalk = () => {
     return(
@@ -7,7 +8,7 @@ const LetsTalk = () => {
             <h2>
                 You got a cool <br />project in mind?
             </h2>
-            <a href="/fiwa/contact">Let's talk.</a>
+            <Link href="/contact">Let's talk.</Link>
             
         </Wrapper>
     )
