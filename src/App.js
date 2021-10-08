@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
   Route,
   HashRouter
@@ -17,7 +17,7 @@ import PageBg from './assets/img/bg.png'
 function App() {
   return (
     <Wrapper>
-      <Router basename="/">
+      <BrowserRouter basename="/fiwa">
         <Switch>
           <Route exact path="/">
               <Home />
@@ -26,7 +26,7 @@ function App() {
               <Contact />
           </Route>
         </Switch>
-      </Router>
+      </BrowserRouter>
     </Wrapper>
   );
 }
