@@ -17,12 +17,12 @@ import PageBg from './assets/img/bg.png'
 function App() {
   return (
     <Wrapper>
-      <Router basename="/fiwa">
+      <Router basename="/">
         <Switch>
           <Route exact path="/">
               <Home />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/fiwa/contact">
               <Contact />
           </Route>
         </Switch>
