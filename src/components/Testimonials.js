@@ -30,8 +30,8 @@ const Testimonials = () => {
                             {/* <p>Project Manager at Bolt</p> */}
                         </div>
                         <div className="testimony">
-                            Transitioning from graphics design to product design wasn't easy but learning under Fiwa made<br />
-                            it possible by giving me a quality design education and ensuring I worked on real-Life project. 
+                            Transitioning from graphics design to product design wasn't easy but learning under Fiwa made
+                            it possible by giving me a quality design education and ensuring I worked on real-Life project. <br />
                             If you are thinking of transitioning to product design consider learning from Fiwa.
                         </div>
                     </div>

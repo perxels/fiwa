@@ -25,7 +25,9 @@ const Contact = () => {
                     Wanna say Hi? Find me at <br />your Fave Hideout below
                 </p>
                 <p className="socials">
-                    <a href="/contact">Instagram</a><a href="/contact">LinkedIn</a><a href="/contact">Twitter</a>
+                    <a href="https://www.instagram.com/abiodunfiwa/">Instagram</a>
+                    <a href="https://www.linkedin.com/in/abiodun-fiwa-okunade-6111a914a/">LinkedIn</a>
+                    <a href="/contact">Twitter</a>
                 </p>
             </footer>
         </Wrapper>
