@@ -16,7 +16,7 @@ import PageBg from './assets/img/bg.png'
 function App() {
   return (
     <Wrapper>
-      <BrowserRouter basename="/fiwa">
+      <BrowserRouter basename="/">
         <Switch>
           <Route exact path="/">
               <Home />
