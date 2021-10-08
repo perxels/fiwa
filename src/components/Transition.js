@@ -12,7 +12,15 @@ const Transition = () => {
                     Transition in Product <br/> Design in 3 months
                 </h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    There seems to be a misconception spreading around that the tech world is getting saturated
+                    and there is no space for everyone to fit in but over the years I have discovered there is always
+                    a tech skill you can grab on and most times the skill you settle for is based on your personality.<br/><br />
+                    Product design is one of such skills and it takes consistency and commitment to transition into
+                    product design successfully. Over the years I have worked with people from various sectors who
+                    have successfully gotten into product design just in the space of 3months and they are living a
+                    comfortable life now.<br />
+                    Are you thinking of making a transition to tech, product design specifically?<br /><br />
+                    Let's talk and get you started today!
                 </p>
                 <h4>
                     100% GUARANTEED!

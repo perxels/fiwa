@@ -6,6 +6,7 @@ import {ReactComponent as Instagram} from '../assets/img/Instagram.svg'
 import {ReactComponent as Dribble} from '../assets/img/Dribble.svg'
 import {ReactComponent as Twitter} from '../assets/img/Twitter.svg'
 import {ReactComponent as Youtube} from '../assets/img/Youtube.svg'
+import {ReactComponent as LinkedIn} from '../assets/img/linkedin.svg'
 
 const Footer = () => {
     return(
@@ -15,7 +16,8 @@ const Footer = () => {
                 <Logo />
                 <span>© 2021 Abiodun Fiwa. All rights reserved</span>
                 <div className="socials">
-                    <Instagram />
+                    <a href="https://www.instagram.com/abiodunfiwa/"><Instagram /></a>
+                    <a href="https://www.linkedin.com/in/abiodun-fiwa-okunade-6111a914a/"><LinkedIn /></a>
                     <Dribble />
                     <Twitter />
                     <Youtube />
@@ -39,7 +41,7 @@ const ContentWrapper = styled.div`
     justify-content: space-between;
     color: #D9DBE1;
     svg {
-        width: 48px;
+        width: 58px;
     }
     .socials {
         display: flex;

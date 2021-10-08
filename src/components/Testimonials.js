@@ -13,15 +13,30 @@ const Testimonials = () => {
                 <Carousel.Item>
                     <div className="carousel__item">
                         <div className="testifier">
-                            <h3>John Doe</h3>
-                            <p>Project Manager at Bolt</p>
+                            <h3>Bolutife Adeniji</h3>
+                            {/* <p>Project Manager at Bolt</p> */}
                         </div>
                         <div className="testimony">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            I remember somebody saying if you are learning from Fiwa, then I do not need to teach you
+                            UIUX again 😂. And yes, Fiwa has made me realize that design chose me. It was a beautiful
+                            experience learning under her
                         </div>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
+                    <div className="carousel__item">
+                        <div className="testifier">
+                            <h3>Oluwabukola Jegede</h3>
+                            {/* <p>Project Manager at Bolt</p> */}
+                        </div>
+                        <div className="testimony">
+                            Transitioning from graphics design to product design wasn't easy but learning under Fiwa made<br />
+                            it possible by giving me a quality design education and ensuring I worked on real-Life project. 
+                            If you are thinking of transitioning to product design consider learning from Fiwa.
+                        </div>
+                    </div>
+                </Carousel.Item>
+                {/* <Carousel.Item>
                     <div className="carousel__item">
                         <div className="testifier">
                             <h3>John Doe</h3>
@@ -31,29 +46,7 @@ const Testimonials = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </div>
                     </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className="carousel__item">
-                        <div className="testifier">
-                            <h3>John Doe</h3>
-                            <p>Project Manager at Bolt</p>
-                        </div>
-                        <div className="testimony">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className="carousel__item">
-                        <div className="testifier">
-                            <h3>John Doe</h3>
-                            <p>Project Manager at Bolt</p>
-                        </div>
-                        <div className="testimony">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-                    </div>
-                </Carousel.Item>
+                </Carousel.Item> */}
             </Carousel>
 
         </Section>
@@ -126,7 +119,7 @@ const Section = styled.section`
         .carousel__item {
             grid-template-columns: 1fr;
             width: 100%;
-            height: fit-content;
+            height: 450px;
             padding: 2rem; 
 
             .testifier {
@@ -134,7 +127,7 @@ const Section = styled.section`
                 position: relative;
                 h3 {
                     font-weight: 700;
-                    font-size: 250%;
+                    font-size: 180%;
                     margin-bottom: 0;
                 }
                 p {
@@ -142,16 +135,16 @@ const Section = styled.section`
                     font-size: 16px;
                 }
                 &::before {
-                    font-size: 140px;
+                    font-size: 100px;
                     font-weight: 700;
-                    left: -6rem;
-                    top: -3.5rem;
+                    left: -5rem;
+                    top: -2.5rem;
                 }
             }
             .testimony {
                 margin: 3rem auto;
                 font-weight: 400;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
         }
         .carousel {

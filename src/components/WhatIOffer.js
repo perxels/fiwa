@@ -9,22 +9,40 @@ const WhatIOffer = () => {
 
             <Carousel
                 title="Product Design Course"
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                content="I am a self-taught UIUX designer and looking at all I went through learning this skill I really can
+                        tell you that it is hard learning UIUX design yourself thus the reason I do all it takes to ensure
+                        everyone interested in product design gets the best design education they need.
+                        I am a product design facilitator and I do this successfully with a hands-on approach, a very
+                        elaborate teaching curriculum and simplified practical sessions.
+                        "
             />
             <hr />
             <Carousel
                 title="Moms Too Can Design Initiative"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?"
+                content="A research in the US in 2020 showed that 30% of women turn full housewives just after
+                    marriage and this same research shows that one of the top skills a housewife can take up is
+                    product design and that is why I introduced the Moms Too Can Design Initiative.
+                    This is with a goal of bringing many house wives with/without children into a place of owning a
+                    skill, keeping up with their dreams and still having a perfect family.
+                    If you are reading this and you are a mother of 2, 3 or more children, I want you to know there is
+                    no limit to what you can achieve as a woman and I will gladly walk you through this design path."
             />
             <hr />
             <Carousel
                 title="Contract Jobs"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?"
+                content="I am open to work on part-time projects which involves building products to solve specific
+                        problems in any industry."
             />
             <hr />
             <Carousel
                 title="Speaking Engagement"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur ad consequatur voluptate reiciendis, veniam earum. Iste eum dolores nihil impedit fuga aliquam laudantium, dolore tempora minima temporibus odio ullam?"
+                content="Apart from designing, one other core skill I possess is good communication skills and I do this
+                by speaking about my design experience and other design-related topics at events.
+                All you need to do to get me to your event is this, send me a personal email -
+                officialfiwa@gmail.com
+                Schedule a meeting with me and we get to fix a date that works for both parties
+                I will be super-duper excited to join you on a conversation.
+                "
             />
             <hr />
         </Wrapper>
@@ -81,7 +99,7 @@ const CarouselWrapper = styled.div`
     padding: 30px 0;
 
     &.active {
-        max-height: 250px;
+        max-height: 550px;
         transition: all 1s ease-out;
         h3::before {
             content: '-';
@@ -131,7 +149,7 @@ const CarouselWrapper = styled.div`
         padding: 10px 0;
 
         &.active {
-            max-height: 400px;
+            max-height: 1000px;
             transition: all 2s ease-out;
             h3::before {
                 content: '-';
