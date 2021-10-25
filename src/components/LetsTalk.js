@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const LetsTalk = () => {
     return(
-        <Wrapper>
+        <Wrapper data-aos="zoom-in">
             <h2>
                 You got a cool <br />project in mind?
             </h2>

@@ -1,33 +1,35 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 import fiwa from '../assets/img/fiwa2.jpg'
 
 const Transition = () => {
+    useEffect(()=>{
+        Aos.init({duration : 2000})
+    },[])
     return(
         <Wrapper>
             
-            <div className="left">
+            <div className="left" data-aos="fade-right">
                 <h3>
                     Transition in Product <br/> Design in 3 months
                 </h3>
                 <p>
-                    There seems to be a misconception spreading around that the tech world is getting saturated
-                    and there is no space for everyone to fit in but over the years I have discovered there is always
-                    a tech skill you can grab on and most times the skill you settle for is based on your personality.<br/><br />
-                    Product design is one of such skills and it takes consistency and commitment to transition into
-                    product design successfully. Over the years I have worked with people from various sectors who
-                    have successfully gotten into product design just in the space of 3months and they are living a
-                    comfortable life now.<br />
-                    Are you thinking of making a transition to tech, product design specifically?<br /><br />
-                    Let's talk and get you started today!
+                A research in 2020 showed that 30% of women become full housewives immediately after getting married. 
+                This research also shows that one of the top skills a housewife can take up is product design. This is 
+                why I introduced the Moms Too Can Design Initiative. This is with a goal of bringing many house wives 
+                with/without children into a place of owning a skill, keeping up with their dreams and still running the 
+                family efficiently. If you are reading this and you are a mother, I want you to know there is no limit to
+                what you can achieve as a woman and I will gladly walk you through this design path.
                 </p>
                 <h4>
                     100% GUARANTEED!
                 </h4>
             </div>
             
-            <div className="right">
+            <div className="right" data-aos="fade-left">
                 <img src={fiwa} alt="fiwa" />
             </div>
         </Wrapper>

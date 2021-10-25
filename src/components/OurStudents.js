@@ -5,7 +5,7 @@ import Students from '../assets/img/combined.png'
 
 const OurStudents = () => {
     return(
-        <Wrapper>
+        <Wrapper data-aos="fade-right">
             <div className="inner">
                 <h3>
                     70% of my students get Job <br /> immediately after the training

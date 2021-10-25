@@ -15,7 +15,7 @@ const Intro = () => {
                 </small>
             </div>
             <div>
-                <div className="img-holder">
+                <div className="img-holder" data-aos="fade-down">
                     <img src={Fiwa} alt="Fiwa" />
                     <a href="/contact" className="lets-talk">Let's talk.</a>
                 </div>

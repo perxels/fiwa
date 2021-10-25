@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const WhatIOffer = () => {
     return (
-        <Wrapper>
+        <Wrapper data-aos="fade-up">
             <h4>WHAT I OFFER</h4>
             <hr />
 
