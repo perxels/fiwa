@@ -36,6 +36,46 @@ const Testimonials = () => {
                         </div>
                     </div>
                 </Carousel.Item>
+
+                <Carousel.Item>
+                    <div className="carousel__item">
+                        <div className="testifier">
+                            <h3>TOLULOPE AJALA</h3>
+                            {/* <p>Project Manager at Bolt</p> */}
+                        </div>
+                        <div className="testimony">
+                        This course has been life changing for me...I am amazed by what I learn with every lesson. 
+                        I have grown confident about my skills and improvement with ui/ux in 3 months so far. 
+                        </div>
+                    </div>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <div className="carousel__item">
+                        <div className="testifier">
+                            <h3>CYNTHIA NWAEZE</h3>
+                            {/* <p>Project Manager at Bolt</p> */}
+                        </div>
+                        <div className="testimony">
+                            I'm a mother of three(3) and I thought I won't be able to transition into tech. <br />
+                            But fiwa's mentorship and training has enabled me to transition with ease, I now work as a UIUX designer. Thank you 
+                        </div>
+                    </div>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <div className="carousel__item">
+                        <div className="testifier">
+                            <h3>AYOMIDE PETER</h3>
+                            {/* <p>Project Manager at Bolt</p> */}
+                        </div>
+                        <div className="testimony">
+                            A great way to learn UX/UI by seeing real-world examples, Fiwa class has that. 
+                            I also love how you can contact the instructors and other students within the course 
+                            to get feedback and learn from them.
+                        </div>
+                    </div>
+                </Carousel.Item>
                 {/* <Carousel.Item>
                     <div className="carousel__item">
                         <div className="testifier">
