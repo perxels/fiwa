@@ -57,8 +57,7 @@ const Testimonials = () => {
                             {/* <p>Project Manager at Bolt</p> */}
                         </div>
                         <div className="testimony">
-                            I'm a mother of three(3) and I thought I won't be able to transition into tech. <br />
-                            But fiwa's mentorship and training has enabled me to transition with ease, I now work as a UIUX designer. Thank you 
+                            I'm a mother of three(3) and I thought I won't be able to transition into tech but fiwa's mentorship and training has enabled me to transition with ease, I now work as a UIUX designer. Thank you 
                         </div>
                     </div>
                 </Carousel.Item>
