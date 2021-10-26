@@ -19,13 +19,12 @@ const WhatIOffer = () => {
             <hr />
             <Carousel
                 title="Moms Too Can Design Initiative"
-                content="A research in the US in 2020 showed that 30% of women turn full housewives just after
-                    marriage and this same research shows that one of the top skills a housewife can take up is
-                    product design and that is why I introduced the Moms Too Can Design Initiative.
-                    This is with a goal of bringing many house wives with/without children into a place of owning a
-                    skill, keeping up with their dreams and still having a perfect family.
-                    If you are reading this and you are a mother of 2, 3 or more children, I want you to know there is
-                    no limit to what you can achieve as a woman and I will gladly walk you through this design path."
+                content="A research in 2020 showed that 30% of women become full housewives immediately after getting married. 
+                        This research also shows that one of the top skills a housewife can take up is product design. This is why I 
+                        introduced the Moms Too Can Design Initiative. This is with a goal of bringing many house wives with/without 
+                        children into a place of owning a skill, keeping up with their dreams and still running the family efficiently. 
+                        If you are reading this and you are a mother, I want you to know there is no limit to what you can achieve as a 
+                        woman and I will gladly walk you through this design path."
             />
             <hr />
             <Carousel

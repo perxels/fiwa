@@ -17,12 +17,14 @@ const Transition = () => {
                     Transition in Product <br/> Design in 3 months
                 </h3>
                 <p>
-                A research in 2020 showed that 30% of women become full housewives immediately after getting married. 
-                This research also shows that one of the top skills a housewife can take up is product design. This is 
-                why I introduced the Moms Too Can Design Initiative. This is with a goal of bringing many house wives 
-                with/without children into a place of owning a skill, keeping up with their dreams and still running the 
-                family efficiently. If you are reading this and you are a mother, I want you to know there is no limit to
-                what you can achieve as a woman and I will gladly walk you through this design path.
+                There seems to be a misconception spreading around that the tech world is getting saturated and there is no space for 
+                everyone to fit in. Over the years, I have discovered there is always a tech skill you can grab on and most times, 
+                the skill you settle for is based on your personality.People also believe if you don’t learn coding or have vast knowledge 
+                of Mathematics, you can’t be into Tech. This is false information. It’s not all aspects of the tech industry that require 
+                you to learn about coding before you can make money.Product design is one of such skills and it takes consistency and 
+                commitment to transition into product design successfully. Over the years I have worked with people from various sectors 
+                who have successfully gotten into product design just in the space of 3months and they are living a comfortable life now. 
+                Are you thinking of making a transition to tech, product design specifically? Let's talk and get you started today!
                 </p>
                 <h4>
                     100% GUARANTEED!
