@@ -17,7 +17,7 @@ const Intro = () => {
             <div>
                 <div className="img-holder">
                     <img src={Fiwa} alt="Fiwa" />
-                    <a href="/contact" className="lets-talk">Let's talk.</a>
+                    <a href="https://api.whatsapp.com/send?phone=2348135369680&text=Hello%20Fiwa%2C%20I%20would%20like%20to%20transition%20into%20UIUX%20Design.%20What%20is%20the%20next%20process%3F" className="lets-talk">Let's talk.</a>
                 </div>
             </div>
         </Wrapper>
